@@ -6,6 +6,6 @@ module top_module (
 
     assign ab = a < b ? a: b; // a < b
     assign cd = c < d ? c: d; // c < d
-    assign min = ab < cd ? ab: cd; 
+    assign min = ab < cd ? ab: cd;
     
 endmodule
