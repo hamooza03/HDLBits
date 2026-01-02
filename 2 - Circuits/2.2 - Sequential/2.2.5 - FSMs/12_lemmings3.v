@@ -10,6 +10,8 @@ module top_module(
     output aaah,
     output digging ); 
 
+    // NOT DONE YET!!
+    
     // When digging, only transition can be digging or falling (if ground=0)
     parameter LEFT=0, RIGHT=1, FALL_LEFT=2, FALL_RIGHT=3, DIG_LEFT=4, DIG_RIGHT=5;
     reg [2:0] state, next_state;

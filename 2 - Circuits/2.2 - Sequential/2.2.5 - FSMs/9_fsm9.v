@@ -7,6 +7,8 @@ module top_module (
     output fr1,
     output dfr
 ); 
+    // NOT DONE YET!!
+    
     // state encoding
     parameter s0 = 3'b000, s1= 3'b001, s2= 3'b011, s3= 3'b111;
     reg[2:0] frtot = {fr1, fr2, fr3}
